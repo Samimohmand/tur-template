@@ -1,0 +1,512 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+#container2{
+    width: 90%;
+    margin: 0 auto;
+} 
+#first-section{
+    background-image: url(../images/backgroundkhan.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 90vh;
+}
+#title-of-website{
+    font-size: 3rem;
+    color: black;
+    font-weight: 400;
+    font-style:oblique;
+}
+header{
+    width: 100%;
+    height: 8vh;
+    background-color: #f0ffffe2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5em;
+   
+}
+.btns{
+    border: none;
+    outline: none;
+    background: none;
+    background-color:black;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 0.3em;
+
+}
+header div .btns a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    height: 9vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+nav ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-right:2em ;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+nav ul li:hover {
+    background-color: white;
+
+    
+
+}
+nav ul li {
+    padding: 0 1em;
+    height: 9vh;
+    line-height: 9vh;
+}
+
+#main-title {
+    width: 40%;
+    color: black;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+#main-title h1{
+    font-size: 3em;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#main-title p{
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+ #second-section{
+    width: 100%;
+    height: 110vh;
+    /* background-color: #99f8f8d8; */
+    margin-top: 8rem;
+  
+} 
+#all-figures h3{
+    color: black ;
+}
+#all-figures{
+    width: 100%;
+    height: 44vh;
+    display: grid;
+    grid-template-columns:25% 17% 17% 17% 17%;
+    column-gap: 1.4rem;
+    margin-top: 6rem;
+
+}
+
+#all-figures   .figure{
+    background-color: blue;
+   color: white;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    border-radius: 0.7em;
+    justify-content: center;
+    margin-bottom: 0.6em;
+    
+}
+#content-holiday{
+    margin-top: 1em;
+}
+#all-figures  #content-holiday h3{
+
+    color: black;
+    font-size: 2em;
+    /* text-transform: uppercase;  */
+    font-style: italic;
+    margin-top: 0.4em;
+} 
+#all-figures  #content-holiday h4{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.6em;
+}
+#all-figures  #content-holiday p{
+       
+    text-align: justify;
+}
+#all-figures  #content-holiday  #circle{
+ 
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 50%;
+}
+#all-figures  #content-holiday  #second-span{
+    margin-left: 0.8em;
+    margin-top: 0.5em;
+}
+#all-figures  #content-holiday  #circle-span{
+    display: flex;
+    margin-top: 0.8em;
+}
+#all-figures    .figure1{
+    background-image:url(../images/imgn1jpg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#all-figures   .figure2{
+  
+    background-image:url(../images/imgn3.jpg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#all-figures   .figure3{
+  
+    background-image:url(../images/imgn5.jpg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#all-figures   .figure4{
+  
+    background-image:url(../images/imgn6.jpg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* =================================== */
+#third-section{ 
+    width: 93%;
+    height: 110vh;
+  
+    margin-top: 1em;
+ 
+}
+ #third-section h1{
+    text-align: center;
+    margin-bottom: 3em;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#all-images-of{
+  width: 100%;
+display: grid;
+grid-template-columns:32% 32% 32%;
+/* grid-template-rows: 50% 50%; */
+column-gap: 1%;
+row-gap: 1%;
+margin-left: 3.5em;
+}
+  
+ 
+#all-images-of .pic{
+    width: 100%;
+    height: 40vh;
+    box-shadow: 2px 2px 1px gray;
+   
+}
+#all-images-of .pic:hover{
+    
+   
+    transform: scale(1.1);
+    transition: transform 1s ;
+    
+   
+}
+#all-images-of .first-pic{
+    background-image: url(../images/backgroundkhan.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#all-images-of .second-pic{
+    background-image: url(../images/backgroundkhan.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#all-images-of .third-pic{
+    background-image: url(../images/backgroundkhan.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#all-images-of .fourth-pic{
+    background-image: url(../images/backgroundkhan.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#all-images-of .fifth-pic{
+    background-image: url(../images/backgroundkhan.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#all-images-of .sixth-pic{
+    background-image: url(../images/backgroundkhan.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#all-images-of .seven-pic{
+    background-image: url(../images/backgroundkhan.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#all-images-of .eight-pic{
+    background-image: url(../images/backgroundkhan.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+
+}  
+
+#foods-coffee{
+    margin-top: 7em;
+}
+#foods-coffee h1{
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+#all-content{
+    width: 100%;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 45% 25%;
+    margin-left: 3.5em;
+    
+}
+
+.food1{
+  width: 91%;
+  height: 42vh;
+  border-radius: 0.6em;
+ 
+}
+.food2{
+    width: 91%;
+    height: 25vh;
+    border-radius: 0.6em;
+}
+
+.first-food{
+  background-image: url(../images/food.jpg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.sec-food{
+    background-image: url(../images/food.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.third-food{
+background-image: url(../images/food.jpg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fourth-food{   
+     background-image: url(../images/food.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fifth-food{  
+    background-image: url(../images/cof1.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.six-food{ 
+    background-image: url(../images/cof2.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seven-food{
+    background-image: url(../images/jjj.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.eight-food{  
+
+    background-image: url(../images/cof1.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+ 
+ 
+/* =================== */
+#foure-sesone{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/gallary1.jpg.jpg);
+    background-position: center;
+}
+#content-of-seson{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 10em;
+    margin-top: 9em;
+    
+}
+#content-of-seson div ul li{
+    line-height: 1.7;
+}
+#content-of-seson h3{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#foure-sesone h2{
+    text-align: center;
+    color: black;
+    font-size:2.5rem ;
+    text-transform: uppercase;
+     
+}
+#testimonial{
+    width: 100%;
+    height: 80vh;
+ 
+}
+#content-of-testimonial{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+    column-gap: 3em;
+}
+#testimonial h2{
+text-align: center;
+margin-top: 3em;
+color: black;
+font-size:2.5rem ;
+text-transform: uppercase;
+ 
+}
+
+
+#testimonial .testi{
+    width: 23%;
+    height: 28vh;
+
+    
+}
+.first-testi{
+
+justify-content: space-around;
+box-shadow: 2px 2px 16px 3px rgba(0, 0, 0, 0.08);
+border-radius: 0.1em;
+
+}
+.testi p{
+    margin-top: 1.3em;
+    padding-left: 0.6em;
+}
+.second-testi{
+
+box-shadow: 2px 2px 16px 3px rgba(0, 0, 0, 0.08);
+border-radius: 0.1em;
+}
+.testi div{
+    margin-top: 1em;
+    padding-left: 0.6em;
+}
+
+ .back-img{
+    width: 5em;
+    height: 5em;
+    background-color: green;
+    border-radius:50%;
+  position: absolute;  
+    margin-left: 13em;
+    margin-top: -1%;
+    background-color: white;
+    background-image: url(../images/one.jpeg.jpeg);
+    background-position: center;
+    background-size: cover;
+   
+    
+} 
+#footer-section{
+    width: 100%;
+    height: 50vh;
+    background-color:black;
+
+
+}
+#first-row{
+ width: 100%;
+display: flex;
+justify-content: center;
+
+
+
+}
+#academy-part h3,#apps h3,#programs h3{
+    color: white;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#academy-part,#apps,#programs {
+    width:30%;
+    margin-top: 2em;
+    padding: 0 4em;  
+}
+
+#academy-part a ,#programs a
+,#apps a{
+    color: white;
+display: block;
+line-height: 1.2;
+text-decoration: none;
+}
+#line{
+    border: 2px solid white;
+    width: 95%;
+    margin: 2em auto;    
+}
+
+
+#copy-right{
+    /* width: 100%; */
+    align-items: end;
+}
+#copy-right P{
+    width: 30%;
+    margin:0 auto;
+    color: white;
+    
+}
